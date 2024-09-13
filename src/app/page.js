@@ -1,9 +1,12 @@
-import Header from "./_components/Header";
+import Image from "next/image";
 
+import Threecomp from "./_components/Threecomp";
 export default function Home() {
   return (
-    <main >
-      <Header/>
-    </main>
+    <>
+      <div className="min-h-[100vh]">
+        <Threecomp />
+      </div>
+    </>
   );
 }
